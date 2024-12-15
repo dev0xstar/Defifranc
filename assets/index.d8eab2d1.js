@@ -12627,7 +12627,7 @@ const fw = x.exports.lazy(() =>
         { path: "/cookie-settings", name: "Cookie Settings", soon: !0 },
       ],
       products: [
-        { path: "https://app.defifranc.com/", name: "DCHF App" },
+        { path: "https://app-defifranc-top.vercel.app/", name: "DCHF App" },
         { path: "https://monetadao.com/", name: "Moneta" },
         { path: "https://grizzly.fi/", name: "Grizzly.fi" },
       ],
@@ -12747,7 +12747,7 @@ function Sw() {
                         children: "Connect Wallet",
                       })
                     : w("a", {
-                        href: "https://app.defifranc.com/",
+                        href: "https://app-defifranc-top.vercel.app/",
                         rel: "noreferrer",
                         target: "_blank",
                         className: "button button-white",
@@ -12768,7 +12768,7 @@ function Sw() {
                       children: "Connect Wallet",
                     })
                   : w("a", {
-                      href: "https://app.defifranc.com/",
+                      href: "https://app-defifranc-top.vercel.app/",
                       target: "_blank",
                       rel: "noreferrer",
                       className: "button button-black",
