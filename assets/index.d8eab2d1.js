@@ -12941,39 +12941,6 @@ function Pw() {
                       ],
                     }),
                   }),
-                  w("div", {
-                    className: "col-12 col-sm-8",
-                    children: I("div", {
-                      className: "footer-menu footer-moneta d-flex",
-                      children: [
-                        I("div", {
-                          className: "left",
-                          children: [
-                            w("img", {
-                              src: "/img/logos/logo-moneta2.svg",
-                              alt: "",
-                            }),
-                            w("a", {
-                              href:
-                                ((r = t.products[1]) == null
-                                  ? void 0
-                                  : r.path) || "",
-                              target: "_blank",
-                              rel: "noreferrer",
-                              children: w("span", {
-                                className: "font-regular",
-                                children: "Learn more",
-                              }),
-                            }),
-                          ],
-                        }),
-                        w("img", {
-                          src: "/img/governance-moneta.png",
-                          alt: "",
-                        }),
-                      ],
-                    }),
-                  }),
                 ],
               }),
             }),
